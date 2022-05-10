@@ -43,26 +43,5 @@ namespace Api.Logistica.WebApi.Controllers
             return Ok(response);
         }
 
-        [HttpPost("CrearProducto")]
-
-        public async Task<IActionResult> CrearProducto(CrearProductoDto producto)
-        {
-            var response = await _pedido.CrearProducto(producto);
-            return Ok(response);
-        }
-
-        [HttpGet("GetProductos")]
-        public async Task<IActionResult> GetProductos()
-        {
-            var response = await _pedido.GetProductos();
-            return Ok(response);
-        }
-
-        [HttpGet("GetProductoById")]
-        public async Task<IActionResult> GetProductoById(int id)
-        {
-            var response = await _pedido.GetProductoById(id);
-            return Ok(response);
-        }
     }
 }
