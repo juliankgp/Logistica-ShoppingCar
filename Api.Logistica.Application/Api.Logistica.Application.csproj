@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Api.Logistica.Data\Api.Logistica.Data.csproj" />
+    <ProjectReference Include="..\Api.Logistica.Domain\Api.Logistica.Domain.csproj" />
+    <ProjectReference Include="..\Api.Logistica.Dto\Api.Logistica.Dto.csproj" />
+    <ProjectReference Include="..\Api.Logistica.Models\Api.Logistica.Models.csproj" />
+  </ItemGroup>
+
+</Project>
